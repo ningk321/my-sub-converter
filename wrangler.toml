@@ -1,0 +1,14 @@
+name = "my-sub-converter"
+main = "src/index.ts"
+compatibility_date = "2024-04-01"
+
+[placement]
+mode = "smart"
+
+[[kv_namespaces]]
+binding = "SUB_CACHE"
+id = "2f29477ce65f4da297ca2c5fb3326283"
+
+[vars]
+# 💥 私密管理密碼（選填）：設定後將保護「已儲存的配置」管理區域，避免他人檢視或竄改
+# PAGE_PASSWORD = "your_secret_password"
